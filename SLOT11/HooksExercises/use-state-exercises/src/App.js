@@ -6,6 +6,8 @@ import FormComponent from './components/FormComponent';
 import LoginForm2 from './components/LoginForm2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SearchItem from './components/SearchItem';
+import AccountSearch from './components/AccountSearch';
+import RegisterForm from './components/RegisterForm';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
     <FormComponent />
     <LoginForm2 />
     <SearchItem />
+    <AccountSearch />
+    <RegisterForm />
     </div>
    
   );
