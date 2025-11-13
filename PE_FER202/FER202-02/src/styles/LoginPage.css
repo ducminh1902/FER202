@@ -1,0 +1,98 @@
+/* Login Page - Orange/Cam Theme */
+
+body {
+  background: linear-gradient(135deg, #ff9f43 0%, #ff7675 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(255, 159, 67, 0.3);
+  background-color: #ffffff;
+  border-top: 5px solid #ff9f43;
+}
+
+.login-title {
+  color: #ff9f43;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+}
+
+.login-card .form-control {
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.login-card .form-control:focus {
+  border-color: #ff9f43;
+  box-shadow: 0 0 0 0.2rem rgba(255, 159, 67, 0.25);
+}
+
+.login-card .btn-primary {
+  background-color: #ff9f43;
+  border-color: #ff9f43;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.login-card .btn-primary:hover {
+  background-color: #ff7675;
+  border-color: #ff7675;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(255, 159, 67, 0.4);
+}
+
+.login-card .btn-secondary {
+  background-color: #e8e8e8;
+  border-color: #e8e8e8;
+  color: #333;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.login-card .btn-secondary:hover {
+  background-color: #d0d0d0;
+  border-color: #d0d0d0;
+}
+
+.login-modal {
+  background: linear-gradient(135deg, #ff9f43 0%, #ff7675 100%);
+  color: white;
+  border-radius: 10px;
+}
+
+.login-modal h5 {
+  color: white;
+  font-weight: 700;
+}
+
+.alert-danger {
+  background-color: #ffebee;
+  border-color: #ef5350;
+  color: #c62828;
+  border-radius: 8px;
+  border-left: 4px solid #ef5350;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .login-card {
+    margin: 20px;
+  }
+
+  .login-title {
+    font-size: 1.5rem;
+  }
+}
